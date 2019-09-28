@@ -1,0 +1,115 @@
+.css_BandMamberCard_Container {
+  height: 670px;
+}
+
+.css_image {
+  max-height: 500px;
+  width: auto;
+}
+
+.css_BandMamberCard {
+  margin-left: -25px;
+  height: 650px;
+}
+
+.css_AboutText {
+  height: 500px;
+  width: auto;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1600px) {
+  .css_BandMamberCard_Container {
+    height: 620px;
+  }
+
+  .css_image {
+    height: 440px;
+  }
+
+  .css_BandMamberCard {
+    height: 600px;
+  }
+
+  .css_AboutText {
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .css_BandMamberCard_Container {
+    height: 570px;
+  }
+
+  .css_image {
+    height: 400px;
+  }
+
+  .css_BandMamberCard {
+    height: 550px;
+  }
+
+  .css_AboutText {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .css_BandMamberCard_Container {
+    height: 550px;
+  }
+
+  .css_image {
+    height: 380px;
+  }
+
+  .css_BandMamberCard {
+    height: 530px;
+  }
+
+  .css_AboutText {
+    height: 380px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .css_BandMamberCard_Container {
+    height: 500px;
+  }
+
+  .css_image {
+    height: 330px;
+  }
+
+  .css_BandMamberCard {
+    height: 480px;
+  }
+
+  .css_AboutText {
+    height: 330px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .css_BandMamberCard_Container {
+    height: 500px;
+  }
+
+  .css_image {
+    height: 330px;
+  }
+
+  .css_BandMamberCard {
+    height: 480px;
+  }
+
+  .css_AboutText {
+    height: 330px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .css_BandMamberCard_Container {
+    display: none;
+  }
+}

@@ -1,0 +1,82 @@
+@import "~@fullcalendar/core/main.css";
+@import "~@fullcalendar/daygrid/main.css";
+
+.fc-left {
+  color: white !important;
+  font-size: 8px !important;
+  margin-bottom: -7px !important;
+  margin-left: 10px !important;
+}
+
+.fc-list-empty {
+  padding: 10px !important;
+  background-image: url("https://i.imgsafe.org/04/0405e626a5.jpeg") !important;
+  color: white !important;
+}
+
+.fc-button-primary {
+  background-image: url("https://i.imgsafe.org/04/0405e626a5.jpeg") !important;
+  border-color: grey !important;
+}
+
+.fc-header-toolbar{
+color: white !important;
+font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+.fc-scroller{
+    overflow: auto !important;
+    height: 432px !important;
+}
+
+/* .fc-prev-button{
+  display: none !important;
+} */
+
+/* Col Titles */
+.fc-widget-header {
+  padding: 10px !important;
+  background-image: url("https://i.imgsafe.org/04/0405e626a5.jpeg") !important;
+  color: white !important;
+  border-color: transparent !important;
+  font-size:13px !important;
+}
+
+/* Cols */
+.fc-list-item-time {
+  display: none !important;
+}
+.fc-list-item-marker {
+  display: none !important;
+}
+.fc-list-item-title {
+  padding: 10px 0px 10px 10px!important;
+  border-color: transparent !important;
+  background-color: transparent !important;
+  font-size:13px !important;
+  color: white !important;
+}
+
+/* .fc-list-item-title a{
+  color: white !important;
+} */
+
+.fc-list-heading-main{
+  margin-right:5px;
+}
+
+/* Main Container */
+.fc-view-container {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.fc-view {
+  padding: 0px !important;
+  margin: 0px !important;
+  border-color: black !important;
+  font-family: 'Noto Sans TC', sans-serif !important;
+}
+.fc-list-empty {
+  padding: 10px !important;
+}

@@ -1,0 +1,27 @@
+.css_VideoContainer {
+  padding: 20px 20px 50px 20px;
+}
+
+.css_VideoBorder{
+  border: 1px solid #343a40;
+}
+
+@media only screen and (min-width: 1500px) {
+  .css_VideoRow {
+    max-width: 1500px;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+    .css_VideoContainer {
+      padding: 20px 0px;
+      margin: 10px 15px;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+  .css_VideoContainer {
+    margin: 0px 15px;
+  }
+}

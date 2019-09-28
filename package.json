@@ -1,0 +1,33 @@
+{
+  "name": "ootw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node ./server/server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "@fullcalendar/daygrid": "^4.3.0",
+    "@fullcalendar/google-calendar": "^4.3.0",
+    "@fullcalendar/list": "^4.3.0",
+    "@fullcalendar/react": "^4.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "nodemailer": "^6.3.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "toastr": "^2.1.4"
+  }
+}

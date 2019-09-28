@@ -1,0 +1,9 @@
+.css_TourPageHight {
+  min-height: "600px";
+}
+
+@media only screen and (min-width: 1440px) {
+  .css_TourPageHight {
+    height: 100vw;
+  }
+}

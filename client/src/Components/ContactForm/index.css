@@ -1,0 +1,32 @@
+.css_ContactHeader{
+    background-image: url('http://drive.google.com/uc?export=view&id=14QRicxmgHk7TCIkVV_a4dO6AatwTq2M2');
+    border-radius: 5px;
+}
+
+.css_FormSubmitButton{
+    background-image: url('http://drive.google.com/uc?export=view&id=14QRicxmgHk7TCIkVV_a4dO6AatwTq2M2');
+    width:40%;
+    padding:15px;
+    border-radius: 5px;
+    background-color: black !important;
+}
+
+.css_FullForm{
+    border: 2px solid #343a40;
+}
+
+.form-check-label{
+    color:#757575 !important;
+}
+
+.form-check{
+    text-align: left !important;
+    padding: 0px 0px 30px 0px !important;
+    color: grey !important;
+    font-size:14px !important;
+}
+
+#form-checkbox.form-check-label{
+padding: 0px 0px 16px 25px !important;
+margin-right: 0px !important;
+}

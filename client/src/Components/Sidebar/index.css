@@ -1,0 +1,10 @@
+.css_NavLinks{
+    margin-top:-2px !important;
+}
+
+@media only screen and (min-width: 1700px) {
+    .css_Sidenav{
+        width:20% !important
+    }
+  }
+  
