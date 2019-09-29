@@ -16,7 +16,7 @@ class NavbarPage extends Component {
   render() {
     return (
       <Router>
-        <MDBNavbar style={{ backgroundImage: "url('http://drive.google.com/uc?export=view&id=14QRicxmgHk7TCIkVV_a4dO6AatwTq2M2')" }}
+        <MDBNavbar style={{ backgroundImage: "url('/assets/images/bg.jpg')" }}
           color="elegant-color-dark border-bottom border-primary"
           dark
           expand="xs">
@@ -24,7 +24,7 @@ class NavbarPage extends Component {
             <Sidebar />
           </MDBNavbarBrand>
           <MDBNavbarNav left>
-            <img alt="band_logo" className="css_NavbarLogo" src="http://drive.google.com/uc?export=view&id=1cPUV8PYn18WFANtUZ1amCqjPu2uNYVtz"></img>
+            <a href="/home"><img alt="band_logo" className="css_NavbarLogo" src="/assets/images/OOTW_LogoTransparent.png"></img></a>
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBBtn href="https://www.instagram.com/ootwla/" target="blank" size="sm" tag="a" floating social="ins" >

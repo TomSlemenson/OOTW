@@ -19,7 +19,7 @@ class Intro extends Component {
       <div className="css_DiscographySection">
         <MDBRow>
           <MDBCol className="text-center css_Discography">
-            <img alt="AlbumArtwork" className="css_imageDiscography" src="http://drive.google.com/uc?export=view&id=1AyXrvDrHKv6Ci0rdrXWe-RlDRG0M6wBg"/>
+            <img alt="AlbumArtwork" className="css_imageDiscography" src="/assets/images/Frailty.jpg"/>
             <AudioPlayer
               src="/assets/audio/Frailty.mp3"
               autoPlay={false}
@@ -27,7 +27,7 @@ class Intro extends Component {
           </MDBCol>
           <MDBCol size={1} className="css_CalInBetweenCards"></MDBCol>
           <MDBCol className="text-center css_Discography">
-            <img alt="AlbumArtwork" className="css_imageDiscography" src="http://drive.google.com/uc?export=view&id=1E8NAsrHJLyMW-UlPKgSHXvBOLU2WFZCQ"/>
+            <img alt="AlbumArtwork" className="css_imageDiscography" src="/assets/images/Control.jpg"/>
             <AudioPlayer
               src="/assets/audio/Control.mp3"
               title="Control"

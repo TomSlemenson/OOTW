@@ -12,7 +12,7 @@
 }
 
 .flex {
-  background-image: url("http://drive.google.com/uc?export=view&id=14QRicxmgHk7TCIkVV_a4dO6AatwTq2M2") !important;
+  background-image: url("/assets/images/bg.jpg") !important;
   border-bottom-left-radius: 8px !important;
   border-bottom-right-radius: 8px !important;
   height: 85px !important;

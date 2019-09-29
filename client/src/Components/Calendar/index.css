@@ -10,12 +10,12 @@
 
 .fc-list-empty {
   padding: 10px !important;
-  background-image: url("https://i.imgsafe.org/04/0405e626a5.jpeg") !important;
+  background-image: url("/assets/images/bg.jpg") !important;
   color: white !important;
 }
 
 .fc-button-primary {
-  background-image: url("https://i.imgsafe.org/04/0405e626a5.jpeg") !important;
+  background-image: url("/assets/images/bg.jpg") !important;
   border-color: grey !important;
 }
 

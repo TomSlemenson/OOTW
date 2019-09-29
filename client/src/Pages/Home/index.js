@@ -22,7 +22,6 @@ class Home extends Component {
            
             <Header/>
             <div className="text-center" style={{ backgroundImage: "linear-gradient(to right, #343a40, black)", minHeight:"600px"}}>
-                {/* <BandMembersContainer /> */}
                 <VideoPlayer />
                 <Discography />
             </div>
