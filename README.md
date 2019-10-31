@@ -1,1 +1,1 @@
-# [OOTW Site Version 1](https://ootw.herokuapp.com/store)
+## #[OOTW Site Version 1](https://ootw.herokuapp.com/)
