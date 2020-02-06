@@ -5,6 +5,8 @@ const nodemailMailgun = require('nodemailer-mailgun-transport');
 const auth = {
   service: 'gmail',
   newline: 'unix',
+  port: 465,
+  secure: true,
   auth: {
     user: 'ootwla@gmail.com',
     pass: 'ootwla1234'
