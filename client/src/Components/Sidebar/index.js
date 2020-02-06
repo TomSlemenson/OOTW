@@ -35,10 +35,10 @@ class SideNavPage extends React.Component {
             {/* <Nav.Link href="/tour"><MDBIcon far icon="calendar-alt" className="mr-2" />Tour</Nav.Link> */}
             <Nav.Link href="/live-stream"><MDBIcon icon="video" className="mr-2" />Live Stream</Nav.Link>
             <Nav.Link href="/contact-us"><MDBIcon far icon="envelope-open" className="mr-2" />Contact Us</Nav.Link>
-            <Nav.Link href="https://open.spotify.com/artist/6b9dZOVjCyd3EsTToR9MeE?si=7GGArZgPTauEk7ouVeIT6g"><MDBIcon fab icon="spotify"  className="mr-2" />Spotify</Nav.Link>
-            <Nav.Link href="https://www.instagram.com/ootwla/"><MDBIcon fab icon="instagram" className="mr-2" />Instagram</Nav.Link>
-            <Nav.Link href="https://www.facebook.com/ootwla/"><MDBIcon fab icon="facebook-f" className="mr-2" />Facebook</Nav.Link>
-            <Nav.Link href="https://www.youtube.com/watch?v=O2LkciiENX0"><MDBIcon fab icon="youtube" className="mr-2" />Youtube</Nav.Link>
+            <Nav.Link href="https://open.spotify.com/artist/6b9dZOVjCyd3EsTToR9MeE?si=7GGArZgPTauEk7ouVeIT6g" target="_blank"><MDBIcon fab icon="spotify"  className="mr-2" />Spotify</Nav.Link>
+            <Nav.Link href="https://www.instagram.com/ootwla/" target="_blank"><MDBIcon fab icon="instagram" className="mr-2" />Instagram</Nav.Link>
+            <Nav.Link href="https://www.facebook.com/ootwla/" target="_blank"><MDBIcon fab icon="facebook-f" className="mr-2" />Facebook</Nav.Link>
+            <Nav.Link href="https://www.youtube.com/watch?v=O2LkciiENX0" target="_blank"><MDBIcon fab icon="youtube" className="mr-2" />Youtube</Nav.Link>
           </MDBSideNavNav>
         </MDBSideNav>
       </div>

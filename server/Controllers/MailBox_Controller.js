@@ -1,15 +1,17 @@
 const db = require("../Models/index.js");
 const nodemailer = require('nodemailer');
+const nodemailMailgun = require('nodemailer-mailgun-transport');
 
-const transporter = nodemailer.createTransport({
-  service: 'gmail',
-  newline: 'unix',
+const auth = {
+
   auth: {
-    user: 'ootwla@gmail.com',
-    pass: 'ootwla1234'
+    api_key: '09b7f9e6cb4ba9aa8265d6dc1df547da-f8faf5ef-f9c04032',
+    domain: 'sandbox539142b9fd8341f39c2c2c83c373b3ca.mailgun.org'
   }
-});
+}
 
+const transporter = nodemailer.createTransport(nodemailMailgun(auth));
+ 
 module.exports = {
     sendEmailToBand: function (req, res) {
         const htmlText = 
@@ -26,7 +28,7 @@ module.exports = {
                   </html>`;
     
         const mailOptions = {
-          from: 'OOTW Email Service',
+          from: 'ootwla@gmail.com',
           to: 'ootwla@gmail.com', // list of receivers
           subject: `From ${req.body.fullName} to OOTW`, // Subject line
           html: htmlText, // plain text body
