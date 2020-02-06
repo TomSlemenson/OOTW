@@ -19,7 +19,7 @@ app.get("*", (req, res) => {
 });
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/OOTWMailingList", 
-{ useNewUrlParser: true }, { useUnifiedTopology: true });
+{ useNewUrlParser: true, useUnifiedTopology: true });
 // mongoose.connect("mongodb://localhost/OOTWMailingList", { useNewUrlParser: true });
 
 
