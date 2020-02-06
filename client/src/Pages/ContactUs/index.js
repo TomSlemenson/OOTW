@@ -5,7 +5,7 @@ import "./index.css";
 class ContactUs extends Component {
 
     render() {
-        return (<div className="text-center pt-5" style={{ backgroundImage: "linear-gradient(to right, #343a40, black)", height: "900px" }}>
+        return (<div className="text-center pt-5 css_ContactPage">
            <ContactForm/>
            </div>
         );

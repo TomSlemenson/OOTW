@@ -15,7 +15,7 @@ class Header extends Component {
   render() {
     return (
         <div>
-          <MDBCol size={12} className="text-center p-3">
+          <MDBCol size={12} className="text-center p-3 bg-white">
             <img src="/assets/images/OOTW.png" alt="OOTW_Logo" width="60%"></img>
           </MDBCol>
         </div>

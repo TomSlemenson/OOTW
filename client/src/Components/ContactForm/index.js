@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ToastContainer, toast} from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import axios from 'axios';
 import { MDBCol, MDBCard, MDBCardBody, MDBBtn, MDBInput } from "mdbreact";
 import './index.css'
@@ -43,10 +43,12 @@ class ContactForm extends Component {
     };
 
     if (!userData.fullName || !userData.email || !userData.subject || !userData.message) {
-      return toast.error("Please don't leave fields blank!", { hideProgressBar: true, 
-        className: 'p-5', 
-        closeButton: false, 
-        autoClose: 6500});
+      return toast.error("Please don't leave fields blank!", {
+        hideProgressBar: true,
+        className: 'p-5',
+        closeButton: false,
+        autoClose: 6500
+      });
     } else {
 
       this.sendEmailToBand(userData)
@@ -76,16 +78,18 @@ class ContactForm extends Component {
     }).then(function (res) {
       console.log(res);
       if (res.status === 200) {
-        toast.success("Your message was sent to the band!", { hideProgressBar: true,
-           className: 'p-5',
-          closeButton: false, 
+        toast.success("Your message was sent to the band!", {
+          hideProgressBar: true,
+          className: 'p-5',
+          closeButton: false,
           autoClose: 6500,
         });
       } else if (res.status === 422) {
-        toast.error("Oh... Something is not right.. Try sending your message later!", { hideProgressBar: true, 
-          className: 'p-5', 
-          closeButton: false, 
-          autoClose: 6500 
+        toast.error("Oh... Something is not right.. Try sending your message later!", {
+          hideProgressBar: true,
+          className: 'p-5',
+          closeButton: false,
+          autoClose: 6500
         });
       }
     })
@@ -105,11 +109,12 @@ class ContactForm extends Component {
           autoClose: 6500
         });
       } else if (res.data.fullName && res.data.email) {
-        toast.success("Congrats! You just subscribed to our mailing lists!", { hideProgressBar: true,
-           className: 'p-5', 
-           closeButton: false, 
-           autoClose: 6500
-          });
+        toast.success("Congrats! You just subscribed to our mailing lists!", {
+          hideProgressBar: true,
+          className: 'p-5',
+          closeButton: false,
+          autoClose: 6500
+        });
       }
     })
   }
@@ -127,8 +132,9 @@ class ContactForm extends Component {
                 className="needs-validation"
                 onSubmit={this.submitHandler}
                 noValidate>
-                <ToastContainer/>
+                <ToastContainer />
                 <MDBInput
+                  tag="p"
                   label="Your name"
                   name="fullName"
                   type="text"
@@ -140,6 +146,7 @@ class ContactForm extends Component {
                   <div className="valid-feedback">Valid!</div>
                 </MDBInput>
                 <MDBInput
+                  tag="p"
                   label="Your email"
                   name="email"
                   type="email"
@@ -151,6 +158,7 @@ class ContactForm extends Component {
                   <div className="valid-feedback">Valid!</div>
                 </MDBInput>
                 <MDBInput
+                  tag="p"
                   label="Subject"
                   name="subject"
                   type="text"
@@ -162,6 +170,7 @@ class ContactForm extends Component {
                   <div className="valid-feedback">Valid!</div>
                 </MDBInput>
                 <MDBInput
+                  tag="p"
                   label="Message"
                   name="message"
                   type="textarea"
@@ -173,6 +182,7 @@ class ContactForm extends Component {
                   <div className="valid-feedback">Valid!</div>
                 </MDBInput>
                 <MDBInput label="Check to subscribe to our mailing lists."
+                  tag="p"
                   type="checkbox"
                   id="checkbox-input"
                   className={this.state.resetValidateClass}

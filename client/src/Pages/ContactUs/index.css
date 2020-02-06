@@ -1,0 +1,10 @@
+.css_ContactPage {
+  background-image: linear-gradient(to right, #343a40, black);
+  min-height: 900px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .css_ContactPage {
+    min-height: 1050px;
+  }
+}

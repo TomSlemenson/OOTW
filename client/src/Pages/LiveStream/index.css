@@ -1,6 +1,17 @@
-.css_LiveStream{
-    width:80%;
-    margin:auto;
-    margin-top:20px;
-    border: 1px solid gray;
+.css_LiveStream {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid gray;
+}
+
+.css_LiveStreamPage {
+  background-image: linear-gradient(to right, #343a40, black);
+  min-height: 700px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .css_LiveStreamPage {
+    min-height: 1050px;
+  }
 }

@@ -11,8 +11,10 @@ class VideoPlayer extends Component {
       <MDBRow className="css_VideoRow">
         <MDBCol>
             <div className="embed-responsive embed-responsive-16by9 css_VideoBorder">
-              <iframe title="MusicVideo" className="embed-responsive-item" src="https://www.youtube.com/embed/O2LkciiENX0" allowFullScreen={true}></iframe>
+              <iframe title="MusicVideo" className="embed-responsive-item" src="./assets/video/frailty_video.mp4" allowFullScreen={true}></iframe>
             </div>
+           
+
         </MDBCol>
       </MDBRow>
     </div>

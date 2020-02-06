@@ -5,8 +5,8 @@ const transporter = nodemailer.createTransport({
   service: 'gmail',
   newline: 'unix',
   auth: {
-    user: 'tslemenson@gmail.com',
-    pass: 'Plus-445'
+    user: 'ootwla@gmail.com',
+    pass: 'ootwla1234'
   }
 });
 
@@ -27,7 +27,7 @@ module.exports = {
     
         const mailOptions = {
           from: 'OOTW Email Service',
-          to: 'tslemenson@gmail.com', // list of receivers
+          to: 'ootwla@gmail.com', // list of receivers
           subject: `From ${req.body.fullName} to OOTW`, // Subject line
           html: htmlText, // plain text body
           attachments: [{

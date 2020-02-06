@@ -19,7 +19,7 @@ class Intro extends Component {
       <div className="css_DiscographySection">
         <MDBRow>
           <MDBCol className="text-center css_Discography">
-            <img alt="AlbumArtwork" className="css_imageDiscography" src="/assets/images/Frailty.jpg"/>
+            <img alt="AlbumArtwork" className="css_imageDiscography" src="/assets/images/Frailty1.png"/>
             <AudioPlayer
               src="/assets/audio/Frailty.mp3"
               autoPlay={false}

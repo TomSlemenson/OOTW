@@ -1,0 +1,47 @@
+div.md-form {
+  height: 15px !important;
+}
+
+.css_updateButtom {
+  background-image: "url('/assets/images/bg.jpg')";
+  border: 1px solid grey;
+  margin-bottom: -6px !important;
+  margin-left: 8px !important;
+  padding: 8px !important;
+}
+
+.css_updateButtom:hover {
+  color: white;
+}
+
+.css_deleteItemButtom {
+  margin-bottom: 8px !important;
+  margin-top: -4px !important;
+}
+
+.arrow {
+  display: none !important;
+}
+
+@media only screen and (max-width: 420px) {
+  .css_updateButtom {
+    margin-left: -5px !important;
+    margin-bottom: -3px !important;
+    padding: 5px !important;
+  }
+  .fa-trash-alt {
+    margin-left: -10px;
+    padding: 0px 12px !important;
+  }
+  .bs-tooltip-bottom {
+    margin-left: -2px !important;
+  }
+  .css_deleteItemButtom {
+    padding: 8px !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+  }
+  td {
+    padding: 8px 4px !important;
+  }
+}

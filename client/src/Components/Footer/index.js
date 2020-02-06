@@ -14,7 +14,7 @@ class Footer extends Component {
                 <a href="/home"><img alt="band_logo" className="css_FooterLogo" src="/assets/images/OOTW_LogoTransparent.png"></img></a><br></br>
                     <SocialLinks />
                 </MDBContainer>
-                <p className="pt-2 pb-1"> &copy; 2009 Copyright: OOTW.band</p>
+                <p className="pt-2 pb-1"> &copy;2020 OOTWLA. All rights reserved.</p>
             </div>
         </MDBFooter>
         );

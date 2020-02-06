@@ -1,0 +1,110 @@
+.MDBBtn {
+  width: 100% !important;
+  margin-top: -40px !important;
+}
+
+.backgroundImage {
+  background-image: url("/assets/images/bg.jpg");
+  color: white;
+}
+
+.backgroundImage:hover {
+  color: white;
+}
+
+.css_allTabs {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.text-success {
+  color: #007e33 !important;
+}
+
+.text-danger {
+  color: #cc0000 !important;
+}
+
+.css_errorIcon {
+  color: #cc0000;
+  position: absolute;
+  right: 25px;
+  top: 11.5px;
+  z-index: 2;
+  height: 50px;
+}
+.css_successIcon {
+  color: #007e33;
+  position: absolute;
+  right: 25px;
+  top: 11.5px;
+  z-index: 2;
+}
+
+.css_errorIconSelectInput {
+  color: #cc0000;
+  position: absolute;
+  right: 45px;
+  top: 11.5px;
+  z-index: 2;
+  height: 50px;
+}
+
+.css_successIconSelectInput {
+  color: #007e33;
+  position: absolute;
+  right: 45px;
+  top: 11.5px;
+  z-index: 2;
+}
+.css_label {
+  position: absolute;
+  top: 10px;
+  left: 22px;
+  z-index: 2;
+}
+
+.css_labelInFocus {
+  position: absolute;
+  font-size: 12px;
+  top: -16px;
+  left: 16px;
+  z-index: 2;
+}
+
+.css_labelColorInFocus {
+  color: #007bff;
+}
+
+.form-control {
+  position: relative;
+  border-top: 1px solid transparent !important;
+  border-left: 1px solid transparent !important;
+  border-right: 1px solid transparent !important;
+  padding-left: 2px;
+  border-radius: 0px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem transparent;
+  border: 2px solid #007bff;
+}
+
+.custom-select {
+  border-top: 1px solid transparent !important;
+  border-left: 1px solid transparent !important;
+  border-right: 1px solid transparent !important;
+  padding-left: 2px;
+  border-radius: 0px;
+}
+
+.custom-select:focus {
+  box-shadow: 0 0 0 0.2rem transparent;
+  border: 2px solid #007bff;
+}
+
+@media only screen and (max-width: 1000px) {
+  .css_hideButtom {
+    display: none;
+  }
+}

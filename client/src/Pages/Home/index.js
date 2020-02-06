@@ -1,10 +1,13 @@
 import React, { Component } from "react";
-import Header from "../../Components/Header/index.js"
+import Carousel from "../../Components/Carousel/index.js"
 import Discography from "../../Components/Discography/index.js"
 import VideoPlayer from "../../Components/VideoPlayer/index.js"
 import "./index.css";
 
+
 class Home extends Component {
+
+    
 
     state = {
         flipped1: false,
@@ -20,10 +23,11 @@ class Home extends Component {
     render() {
         return (<div>
            
-            <Header/>
-            <div className="text-center" style={{ backgroundImage: "linear-gradient(to right, #343a40, black)", minHeight:"600px"}}>
+            <Carousel/>
+            <div className="text-center" style={{ backgroundImage: "linear-gradient(to right, #343a40, black)", minHeight:"550px"}}>
                 <VideoPlayer />
                 <Discography />
+                {/* <div><h1 className="font font2">WHEN HUMANS BECOME OUR GODS <br></br><span className="font1">OUR LAST NIGHT</span></h1></div> */}
             </div>
        
         </div>
