@@ -27,7 +27,7 @@ class Home extends Component {
             <div className="text-center" style={{ backgroundImage: "linear-gradient(to right, #343a40, black)", minHeight:"550px"}}>
                 <VideoPlayer />
                 <Discography />
-                {/* <div><h1 className="font font2">WHEN HUMANS BECOME OUR GODS <br></br><span className="font1">OUR LAST NIGHT</span></h1></div> */}
+                {/* <div><h1 className="font font2">EXPERIMENT ON ME <br></br><span className="font1">HALSEY</span></h1></div> */}
             </div>
        
         </div>
