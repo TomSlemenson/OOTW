@@ -1,6 +1,8 @@
 const db = require("../Models/index.js");
-const nodemailer = require('nodemailer');
-const nodemailMailgun = require('nodemailer-mailgun-transport');
+
+const transporter = require('@sendgrid/mail')
+require('dotenv').config()
+transporter.setApiKey(process.env.SENDGRID_KEY);
 
 const auth = {
   service: 'gmail',
