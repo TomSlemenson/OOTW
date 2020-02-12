@@ -10,7 +10,7 @@ const CarouselPage = () => {
       marginRight: "-0.5px"
     }}
     activeItem={1}
-    length={2}
+    length={3}
     showControls={false}
     showIndicators={false}
     interval={4500}
@@ -57,7 +57,7 @@ const CarouselPage = () => {
           </MDBCarouselCaption>
         </MDBView>
       </MDBCarouselItem>
-{/* 
+
       <MDBCarouselItem itemId="3">
         <MDBView className="text-center">
           <img
@@ -69,7 +69,7 @@ const CarouselPage = () => {
           />
           <MDBMask />
         </MDBView>
-      </MDBCarouselItem> */}
+      </MDBCarouselItem>
     </MDBCarouselInner>
   </MDBCarousel>
   );
