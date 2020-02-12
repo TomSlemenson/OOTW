@@ -5,7 +5,7 @@ import "./index.css";
 class SocialLinks extends Component {
 
     render() {
-        return <MDBContainer>
+        return <MDBContainer className="p-0">
             <MDBBtn href="https://www.instagram.com/ootwla/" target="blank" size="sm" tag="a" floating social="ins" >
               <MDBIcon className="m-0 p-0" fab icon="instagram" />
             </MDBBtn>

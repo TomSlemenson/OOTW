@@ -1,0 +1,9 @@
+
+
+@media only screen and (max-width: 840px) {
+    .css_mxheight{
+        max-height: 300px;
+        overflow: scroll;
+        text-align: justify;
+    }
+  }
