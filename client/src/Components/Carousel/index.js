@@ -61,10 +61,9 @@ const CarouselPage = () => {
       <MDBCarouselItem itemId="3">
         <MDBView className="text-center">
           <img
-            
+            className="mr-5"
             src="/assets/images/web2.png"
-            width="125%"
-            
+            width="128%"
             alt="Third slide"
           />
           <MDBMask />
