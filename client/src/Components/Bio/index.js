@@ -19,9 +19,9 @@ toggleCollapse = collapseID => () => {
 render() {
 
   if (this.state.collapseID == "basicCollapse"){
-    this.state.closeOrOpen = "(Read less)"
+    this.state.closeOrOpen = <small>(Read less)</small>
   } else {
-    this.state.closeOrOpen = "(Open section)"
+    this.state.closeOrOpen = <small>(Open section)</small>
   }
 
   return (
@@ -31,7 +31,7 @@ render() {
       onClick={this.toggleCollapse("basicCollapse")}
       style={{ marginBottom: "0", fontWeight: "bold"}}
     >
-      About <br></br><small>{this.state.closeOrOpen}</small>
+      About <br></br>{this.state.closeOrOpen}
     </MDBBtn>
         <MDBCollapse id="basicCollapse" isOpen={this.state.collapseID}>
             <BioCard/>
