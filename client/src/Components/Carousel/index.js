@@ -63,7 +63,7 @@ const CarouselPage = () => {
           <img
             className="mr-5"
             src="/assets/images/web2.png"
-            width="125%"
+            width="127%"
             alt="Third slide"
           />
           <MDBMask />
